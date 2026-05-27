@@ -1,0 +1,13 @@
+# Phase 1: Build the fact pattern
+
+### Fact Pattern:
+
+**Scenario: LLM Fine-Tuning on B2B SaaS Support Logs**
+
+The client is a mid-sized B2B SaaS company (approx. 150–400 employees) headquartered in Hamburg, Germany, operating in the enterprise software sector and generating the majority of its revenue from subscription contracts with business customers across the EU, the United States, the United Kingdom, and the Asia-Pacific region. The company intends to fine-tune a large language model on approximately two years of archived live-chat support logs, a dataset likely comprising tens of thousands of conversation threads and containing directly identifiable personal data — specifically the full names, business email addresses, job titles, and IP addresses of the human support agents and the end-user representatives of its corporate customers who initiated or participated in those chats, as well as free-text complaint and query content that may incidentally include sensitive operational, contractual, or financial information about the customer organisations. 
+
+The data subjects are therefore a mixed population: employees of the client company (the support agents) and employees or authorised representatives of third-party business customers, located across multiple jurisdictions including EU/EEA Member States, the United Kingdom, the United States, and potentially further third countries. 
+
+For the fine-tuning workload, the company plans to use a U.S.-based foundation model provider and cloud infrastructure vendor — either via API-based training services or a managed MLOps platform — meaning raw or minimally pre-processed training data will be transferred to and processed by a non-EU entity acting as a data processor. The resulting fine-tuned model is intended to power an internal customer-service assistant that autonomously handles or triages incoming support requests, drafts or sends responses, and potentially classifies tickets by urgency or escalation risk. 
+
+While the system is not presented as making legally binding decisions, automated triage and escalation scoring may produce similarly significant effects on the quality and speed of service received by data subjects, and the model's outputs will directly influence how support staff — or the system itself — responds to individual complaints, placing this use case at the boundary of Art. 22 GDPR and the AI Act's risk classification framework.
